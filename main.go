@@ -43,6 +43,8 @@ func main() {
 
 	fmt.Println("usbresetter started")
 
+	reset()
+
 	for {
 		select {
 		case <-ticker.C:
